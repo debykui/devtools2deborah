@@ -1,0 +1,29 @@
+/*
+Theme Name: [child theme]
+Theme URI: suiteats.ca
+Description: Child theme based on Twenty Seventeen
+Author: Deborah Matos
+Version: 1.0
+Template: twentyseventeen
+*/
+
+@import url('../twentyseventeen/style.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive; */
+
+body, button, input, select, textarea {
+   font-family: 'Open Sans', sans-serif; 
+}
+
+.entry-title {
+	font-family: 'Righteous', cursive;
+}
+
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
+    color: #pink;
+}
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: #pink;
+}
